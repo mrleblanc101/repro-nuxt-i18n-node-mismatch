@@ -2,15 +2,22 @@
   <div>
     <img
         class="quebec-city-logo"
-        src="@/assets/img/ville-quebec.svg?url"
-        :alt="t('Partenaires')"
+        src="@/assets/img/ville-quebec.svg"
+        :alt="t('Ville de Québec l’accent d’Amérique')"
         width="276"
         height="81"
     />
     <img
         class="quebec-city-logo"
-        src="@/assets/img/ville-quebec.svg?url"
-        :alt="'Test'"
+        src="@/assets/img/ville-quebec.svg"
+        :alt="'Ville de Québec l’accent d’Amérique'"
+        width="276"
+        height="81"
+    />
+    <img
+        class="quebec-city-logo"
+        src="@/assets/img/ville-quebec.svg"
+        alt="Ville de Québec l’accent d’Amérique"
         width="276"
         height="81"
     />
@@ -32,7 +39,7 @@ html {
 <i18n lang="json">
 {
     "en": {
-        "Partenaires": "Partners"
+        "Ville de Québec l’accent d’Amérique": "Québec City l’accent d’Amérique",
     }
 }
 </i18n>
